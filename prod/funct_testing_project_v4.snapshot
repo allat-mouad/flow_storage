@@ -3973,77 +3973,7 @@
       "remoteProcessGroups" : [ ],
       "variables" : { }
     } ],
-    "processors" : [ {
-      "autoTerminatedRelationships" : [ ],
-      "bulletinLevel" : "WARN",
-      "bundle" : {
-        "artifact" : "nifi-standard-nar",
-        "group" : "org.apache.nifi",
-        "version" : "1.19.1"
-      },
-      "comments" : "",
-      "componentType" : "PROCESSOR",
-      "concurrentlySchedulableTaskCount" : 1,
-      "executionNode" : "ALL",
-      "groupIdentifier" : "d6de8b45-ac2d-3596-917f-045e40b59af8",
-      "identifier" : "084d4ab3-3809-3e61-9c02-318fe256fe1b",
-      "name" : "AttributesToCSV",
-      "penaltyDuration" : "30 sec",
-      "position" : {
-        "x" : 960.0,
-        "y" : 2016.0
-      },
-      "properties" : {
-        "null-value" : "false",
-        "include-core-attributes" : "true",
-        "destination" : "flowfile-attribute",
-        "include-schema" : "false"
-      },
-      "propertyDescriptors" : {
-        "null-value" : {
-          "displayName" : "Null Value",
-          "identifiesControllerService" : false,
-          "name" : "null-value",
-          "sensitive" : false
-        },
-        "include-core-attributes" : {
-          "displayName" : "Include Core Attributes",
-          "identifiesControllerService" : false,
-          "name" : "include-core-attributes",
-          "sensitive" : false
-        },
-        "attributes-regex" : {
-          "displayName" : "Attributes Regular Expression",
-          "identifiesControllerService" : false,
-          "name" : "attributes-regex",
-          "sensitive" : false
-        },
-        "destination" : {
-          "displayName" : "Destination",
-          "identifiesControllerService" : false,
-          "name" : "destination",
-          "sensitive" : false
-        },
-        "include-schema" : {
-          "displayName" : "Include Schema",
-          "identifiesControllerService" : false,
-          "name" : "include-schema",
-          "sensitive" : false
-        },
-        "attribute-list" : {
-          "displayName" : "Attribute List",
-          "identifiesControllerService" : false,
-          "name" : "attribute-list",
-          "sensitive" : false
-        }
-      },
-      "runDurationMillis" : 0,
-      "schedulingPeriod" : "0 sec",
-      "schedulingStrategy" : "TIMER_DRIVEN",
-      "style" : { },
-      "type" : "org.apache.nifi.processors.standard.AttributesToCSV",
-      "yieldDuration" : "1 sec"
-    } ],
+    "processors" : [ ],
     "remoteProcessGroups" : [ ],
     "variables" : { }
   }
